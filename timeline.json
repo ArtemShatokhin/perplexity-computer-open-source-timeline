@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-10-21T07:33:19+00:00",
+  "events": [
+    {
+      "date": "2026-10-21",
+      "title": "Audit: agent, planner, router and connector catalog still closed",
+      "scope": "agent",
+      "published": false,
+      "what_changed": "Re-checked against Perplexity's own help centre and the SPACE announcement: nothing above the sandbox layer has been published.",
+      "source_url": "https://www.perplexity.ai/help-center/en/articles/13837784-what-is-computer",
+      "checked": "2026-10-21"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "SPACE, the sandbox platform behind Computer, is published",
+      "scope": "sandbox",
+      "published": true,
+      "what_changed": "The platform where Computer's sessions execute, with isolated code execution, pause and resume, recovery and session branching, is now public at github.com/perplexityai/SPACE. The agent, the router and the connector catalog are not in the release.",
+      "source_url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+      "checked": "2026-10-21"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Automations ship in the product, with no repository",
+      "scope": "agent",
+      "published": false,
+      "what_changed": "A Computer task can run on a schedule or on an event in Slack, Gmail, Outlook, Linear or GitHub. The feature lives in Perplexity's product, not in a repository; scheduled runs are kept on the Automations dashboard, no faster than once an hour.",
+      "source_url": "https://www.perplexity.ai/hub/blog/computer-adds-automations-for-ongoing-work",
+      "checked": "2026-10-21"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Agent API adds reusable Profiles, Skills and managed connectors",
+      "scope": "build-surface",
+      "published": false,
+      "what_changed": "A subscriber can declare an agent once and reuse it across applications, but the definition executes inside Perplexity's cloud.",
+      "source_url": "https://www.perplexity.ai/hub/blog/agent-api-now-supports-reusable-agents",
+      "checked": "2026-10-21"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Portable Computer documented: closed code on your own GPU",
+      "scope": "device",
+      "published": false,
+      "what_changed": "Closed code executing on hardware you own: the orchestrator, planner, scheduler and sandbox run on a DGX Spark or a 24 GB RTX card, with a Pro or Max plan still required.",
+      "source_url": "https://www.perplexity.ai/help-center/en/articles/20260915-what-is-portable-computer",
+      "checked": "2026-10-21"
+    },
+    {
+      "date": "2026-07",
+      "title": "Perplexity replaces its sandbox vendor with SPACE",
+      "scope": "sandbox",
+      "published": false,
+      "what_changed": "Stated in the October announcement: SPACE replaced the commercial sandbox vendor and has run every Computer session since. The replacement itself was not a publication.",
+      "source_url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+      "checked": "2026-10-21"
+    }
+  ]
+}
